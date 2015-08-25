@@ -1,0 +1,5 @@
+<%= page_title "새글쓰기" %>
+
+<% labeling_form_for [@board, @post] do |form| %>
+	<%= render :partial => 'form', :object => form %>
+<% end %>	
